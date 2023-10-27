@@ -1,0 +1,159 @@
+body{
+  background-color: #2382AB;
+}
+header{
+  height: 12%;
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #115876;
+}
+.logo{
+  width: 175px;
+  cursor: pointer;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+}
+h1{
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-bottom: 1px solid #ffffff;
+  color: #fff;
+  font-size: 30px;
+}
+.card{
+  width:250px;
+  height:200px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-left: 30px;
+  background-image: url("../img/hk.png");
+  background-position: center;
+  background-size: cover;
+  transition:0.5s;
+}
+.card1{
+  background-image: url("../img/hk.png");
+}
+.card2{
+  background-image: url("../img/s.jpg");
+}
+.card3{
+  background-image: url("../img/ds.jpeg");
+}
+.card4{
+  background-image: url("../img/z.jpg");
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+.videomenu{
+  max-width: 2000px;
+  display: flex;
+}
+.mainvideo{
+  margin:30px;
+  width: 950px;
+}
+.videolistcontainers{
+  flex:1 1 135px;
+  margin-top:30px;
+  margin-right:30px;
+  height: 525px;
+  overflow-y: scroll;
+}
+.listvideo{
+  width:100px;
+}
+.list{
+  display:flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
+  gap: 10px;
+}
+footer{
+  width:100%;
+  background-color: #115876;
+}
+.footermedia{
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  color:white;
+}
+.copiright{
+  color: #dcd6d6;
+}
+p{
+  color: white;
+  margin-left:30px;
+  margin-right: 30px; 
+  margin-bottom: 15px;
+}
+.backgroundimage{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 465px;
+  background-image: url("../img/hk.png");
+  background-position: center;
+  background-size: cover;
+}
+.text{
+  text-align: center;
+}
+/*
+Replaces the sample image with individual images so that 
+the size propertie is inherited and the same for all the pages
+*/
+.backgroundimage1{
+  background-image: url("../img/Holow Knight background.jpg");
+}
+.backgroundimage2{
+  background-image: url("../img/skyrim backgound.jpg");
+}
+.backgroundimage3{
+  background-image: url("../img/dark souls background.jpg");
+}
+.backgroundimage4{
+  background-image: url("../img/Zelda background.jpeg");
+}
+.body{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: #115876;
+  margin: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 50px;
+  border-radius: 10px;
+}
+strong{
+  border-bottom: 1px solid #ffffff;
+}
+li{
+  color: #fff;
+  list-style: none;
+}
