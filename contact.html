@@ -18,11 +18,20 @@
         </ul>
       </nav>
     </header>
-    <form class = "body">
+    <form class ="body">
       <h1>Contact us:</h1>
       <p>Name: <input type="text" class="name" placeholder="Hugo"></p>
       <p lass="surname">Surname: <input type="text" class="surname" placeholder="Hernandez"></p>
-      <p>Reason of contact: <input type="text" class="reason" placeholder="Other"></p>
+      <p>Gender: </p>
+      <p><input type="radio" name="gender" value="Male"><label for="Male">Male</label><br></p>
+      <p><input type="radio" name="gender" value="Female"><label for="Female">Female</label><br></p>
+      <p>Email: <input type="email" class="mail" placeholder="example@gmail.com"></p>
+      <p><label>Reason of contact: </label><select class="reason">
+        <option>Suggest a game</option>
+        <option>Report on a bug</option>
+        <option>Make a complaint</option>
+      </select></p>
+      <p><label>Why contacting: </label><input type="text" placeholder="example" class="other"></p>
       <input type = submit class="submit">
     </form>
 
